@@ -31,7 +31,7 @@ Getting Started
 Follow these instructions to set up and run the project on your local machine.
 
 1. Prerequisites
-Python 3.8+
+Python 3.9+
 
 A Groq API Key (get one for free at console.groq.com)
 
