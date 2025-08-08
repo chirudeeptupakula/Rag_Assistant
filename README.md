@@ -53,57 +53,62 @@ Follow these instructions to set up and run the project on your local machine.
 2. Installation & Setup
    Clone the repository:
 
-   Bash
+   ### Bash
 
-   git clone https://github.com/your-username/RAG-ASSISTANT.git
+   `git clone https://github.com/chirudeeptupakula/Rag_Assistant.git`
 
    cd RAG-ASSISTANT
 
    Create and activate a virtual environment:
 
-   Bash
+   ### Bash
 
 # For Windows
-python -m venv myenv
-myenv\Scripts\activate
+`python -m venv myenv`
+`myenv\Scripts\activate`
 
 # For macOS/Linux
-python3 -m venv myenv
-source myenv/bin/activate
-Install the required dependencies:
+`python3 -m venv myenv`
+`source myenv/bin/activate`
 
-Bash
+Install the required dependencies (all dependencies are listed in requirements):
 
-pip install -r requirements.txt
+### Bash
+`pip install -r requirements.txt`
+
 Configure your environment variables:
 
 Create a copy of the example environment file in the src directory:
 
-Bash
+### Bash
+`touch src/.env`
 
-cp src/.env.example src/.env
+or do it manually by clicking create new file in src folder. and name the file as .env
+
 Open src/.env and add your Groq API key:
 
 GROQ_API_KEY="your-actual-api-key-here"
-3. Running the Application
+(get your api key from Grok website using create api key)
+
+# Running the Application
    You can run the RAG Assistant in two ways:
 
 A) Streamlit Web UI (Recommended)
 
 To launch the user-friendly web interface, run the following command from the project's root directory:
 
-Bash
+### Bash
+`streamlit run app.py`
 
-streamlit run src/app.py
 This will open the application in your web browser. The first time you run it, it will take a few minutes to download the embedding model and build the vector database.
 
 B) Command-Line Interface
 
 To chat with the assistant directly in your terminal, run this command from the project's root directory:
 
-Bash
+### Bash
+`python src/rag_assistant.py`
 
-python src/rag_assistant.py
 ## License
 This project is licensed under the MIT License. For more details, see the LICENSE file.
 

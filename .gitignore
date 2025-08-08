@@ -4,7 +4,6 @@ myenv/
 # Ignore environment variables file
 src/.env
 .env
-
 # Ignore IDE-specific files
 .idea/
 .vscode/
