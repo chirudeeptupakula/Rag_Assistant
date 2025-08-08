@@ -50,7 +50,7 @@ if prompt := st.chat_input("What is your question?"):
     # Generate and display AI response
     with st.chat_message("assistant"):
         with st.spinner("Thinking..."):
-            response = get_rag_response(prompt, llm, collection, embedding_model)
+            response = get_rag_response(prompt, llm, collection, embedding_model, st.session_state.messages)
             st.markdown(response)
 
     # Add AI response to history
