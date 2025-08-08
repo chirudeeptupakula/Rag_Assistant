@@ -1,9 +1,9 @@
-RAG Research Assistant 
+# RAG Research Assistant 
 This project is a Retrieval-Augmented Generation (RAG) based AI assistant designed to answer questions about a collection of AI and Machine Learning research publications. It leverages a local vector database to store document embeddings and uses the Groq API for fast language model inference. The application features both a command-line interface and a user-friendly web UI built with Streamlit.
 
 This project was developed as part of the Agentic AI Developer Certification Program by Ready Tensor.
 
-✨ Features
+Features
 RAG Pipeline: Answers questions using context retrieved from a specialized document set, reducing hallucinations and providing source-grounded answers.
 
 Local Vector Store: Uses ChromaDB to store document embeddings locally, ensuring data privacy and fast retrieval.
@@ -14,7 +14,7 @@ Dual Interface: Interact with the assistant via a simple command-line interface 
 
 Modular Code: The codebase is refactored into a reusable module for easy integration and extension.
 
-🛠️ Tech Stack
+Tech Stack
 Framework: LangChain
 
 LLM: Groq (Llama 3 8B)
@@ -27,7 +27,7 @@ UI: Streamlit
 
 Environment Management: python-dotenv
 
-🚀 Getting Started
+Getting Started
 Follow these instructions to set up and run the project on your local machine.
 
 1. Prerequisites
