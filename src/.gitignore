@@ -1,0 +1,13 @@
+# Ignore Python virtual environment
+myenv/
+
+# Ignore environment variables file
+src/.env
+.env
+
+# Ignore IDE-specific files
+.idea/
+.vscode/
+
+# Ignore database files
+research_db/
