@@ -88,3 +88,44 @@ B) Command-Line Interface
 To chat with the assistant directly in your terminal, run this command from the project's root directory:
 
 python src/rag_assistant.py
+
+SAMPLE Inputs and Outputs:
+📚 RAG Research Assistant
+Ask any question about the provided AI/ML research papers.
+
+Q)who is mahatma gandhi?
+
+A)I cannot find the information in the provided documents.
+
+Q)what is vae
+
+A)Based on the provided context, a VAE (Variational Auto-Encoder) is a class of generative models designed to encode data into a compressed latent space and then decode it to reconstruct the original input. The architecture of a VAE consists of two main components: the encoder and the decoder. The encoder compresses the input data into a latent space representation, while the latent space represents the compressed data as a probability distribution, typically Gaussian. VAEs differ from traditional auto-encoders in that they have probabilistic encoding in the latent space, whereas traditional auto-encoders have deterministic encoding.
+
+Q)how vae is used
+
+A)Based on the provided context, VAEs are generative models designed to encode data into a compressed latent space and then decode it to reconstruct the original input. According to the context, VAEs have several applications, including:
+
+Compression: VAEs can be used to compress data into a lower-dimensional representation, making it more efficient for storage and transmission.
+Reconstruction: VAEs can be used to reconstruct the original input from the latent space representation.
+Generation: VAEs can be used to generate new samples by sampling from the latent space distribution.
+The context does not provide specific examples of how VAEs are used, but it highlights the differences between VAEs and traditional auto-encoders. To gather more relevant details, I would like to ask a follow-up question:
+
+Could you please provide more context or specific examples of how VAEs are used in practice, such as in image generation, data compression, or anomaly detection?
+
+Q)I am using it in data compression
+
+A)Based on the provided context, it seems that you are using the Variational Auto-Encoder (VAE) for data compression. The context highlights the advantages of VAEs over traditional compression methods, including adaptability, feature learning, and the ability to capture the essence of complex data in a compact latent representation.
+
+According to the context, VAEs can be used for compression, and it provides an example of using VAEs for efficient data compression using the MNIST dataset. The context also mentions that the principles of VAE applications extend to various real-world datasets, including image processing, tabular data, time series analysis, and more.
+
+In your specific use case, you mentioned using VAEs for data compression. The context suggests that VAEs can be a powerful solution for data compression, particularly in scenarios where traditional methods may not be optimized for the type of data or application.
+
+To gather more relevant details, I would like to ask a follow-up question:
+
+Could you please provide more information on your specific use case, such as the type of data you are compressing, the size of the dataset, and the desired compression ratio? This would help me provide more tailored guidance and insights on how to effectively use VAEs for data compression in your context.
+
+Q)where i use vae can you remind me
+
+A)Based on our previous conversation, I can remind you that you mentioned using the Variational Auto-Encoder (VAE) for data compression. You also mentioned that you are using VAEs for data compression, and I provided some general information on how VAEs can be used for data compression.
+
+To specifically answer your question, you used VAEs for data compression.
