@@ -8,5 +8,8 @@ src/.env
 .idea/
 .vscode/
 
+
 # Ignore database files
 research_db/
+
+*sqlite3
