@@ -33,6 +33,7 @@ Environment Management: python-dotenv
 ## Repository Structure
 The project repository has a simple, clean structure:
 
+```plaintext
 RAG-ASSISTANT/
 ├── src/
 │   ├── .env.example
@@ -41,6 +42,8 @@ RAG-ASSISTANT/
 │   └── ...              # Other source files
 ├── requirements.txt     # Python dependencies
 └── README.md            # This file
+```
+
 ## Installations Getting Started
 Follow these instructions to set up and run the project on your local machine.
 
