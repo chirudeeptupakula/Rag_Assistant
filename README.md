@@ -10,9 +10,9 @@ Local Vector Store: Uses ChromaDB to store document embeddings locally, ensuring
 
 High-Performance LLM: Powered by the Groq API using the Llama 3 model for near-instantaneous responses.
 
-Dual Interface: Interact with the assistant via a simple command-line interface or a clean, web-based UI built with Streamlit.
+Dual Interface: Interacts with the assistant via a simple command-line interface or a clean, web-based UI built with Streamlit.
 
-Modular Code: The codebase is refactored into a reusable module for easy integration and extension.
+Modular Code: The codebase is refactored into a reusable  module for easy integration and extension.
 
 Tech Stack
 Framework: LangChain
