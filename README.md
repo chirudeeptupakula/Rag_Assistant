@@ -37,9 +37,10 @@ The project repository has a simple, clean structure:
 RAG-ASSISTANT/
 ├── src/
 │   ├── .env.example
-│   ├── app.py           # Streamlit web UI application
-│   ├── rag_assistant.py # Command-line interface
+│   ├── rag_assistant.py # Python helper file
+│   ├── logger.py        # Python logger
 │   └── ...              # Other source files
+│── app.py               # Streamlit web UI application
 ├── requirements.txt     # Python dependencies
 └── README.md            # This file
 ```
